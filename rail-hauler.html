@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rail Hauler — Samriddhi Mishra</title>
+  <meta name="description" content="Compact rail hauler with ±5° front articulation for tight curves and hill clearance." />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body{font:16px/1.7 system-ui,-apple-system,Segoe UI,Inter,Arial;background:#0b0c10;color:#eaecef;margin:0}
+    a{color:#7c9cff}
+    .wrap{max-width:900px;margin:auto;padding:24px}
+    header{padding:16px 0 8px}
+    .lead{color:#a9b1bd}
+    .hero{aspect-ratio:16/10;background:#1f2430;border-radius:14px;overflow:hidden;margin:12px 0}
+    model-viewer{width:100%;height:100%;display:block;background-color:#1f2430}
+    section{margin:24px 0}
+    h1,h2{line-height:1.2}
+    .btn{display:inline-block;padding:10px 14px;border:1px solid #2a3140;border-radius:10px;background:#1f2430;color:#eaecef;text-decoration:none;margin-right:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="btn" href="index.html">← Back to Portfolio</a>
+      <h1>Rail Hauler</h1>
+      <p class="lead">MECH 223 • Mar 2025 • CAD · Robotics · Manufacturing</p>
+    </header>
+
+    <div class="hero">
+      <model-viewer
+        src="assets/models/rail-hauler.glb"
+        poster="assets/posters/rail-hauler.jpg"
+        alt="Rail Hauler 3D Model"
+        camera-controls
+        auto-rotate
+        environment-image="neutral"
+        shadow-intensity="1"
+        exposure="1"
+        ar
+        ar-modes="webxr scene-viewer quick-look">
+      </model-viewer>
+    </div>
+
+    <section>
+      <h2>Overview</h2>
+      <p>166×40&nbsp;mm, ~36&nbsp;g FDM chassis with ±5° front articulation enabling 600&nbsp;mm curve negotiation and hill clearance. Designed with serviceability and part count in mind.</p>
+    </section>
+
+    <section>
+      <h2>Highlights</h2>
+      <ul>
+        <li>Compact geometry optimized for tight curves</li>
+        <li>Articulated front end for improved tracking</li>
+        <li>Low mass; printable jigs for assembly</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tools & Skills</h2>
+      <p>SolidWorks, linkage design, tolerancing, 3D printing setup and QA, basic kinematics checks.</p>
+    </section>
+
+    <section>
+      <h2>Learnings</h2>
+      <p>Trade-offs between articulation freedom, clearance, and structural rigidity; making quick design iterations with print-time constraints.</p>
+    </section>
+  </div>
+</body>
+</html>
